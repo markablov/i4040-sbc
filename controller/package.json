@@ -1,0 +1,26 @@
+{
+  "name": "stm32-mcs4-memory-emulator-control",
+  "version": "1.0.0",
+  "description": "Script to interact with stm32-mcs4-memory-emulator",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "highwayhash": "^3.1.1",
+    "i40xx-asm": "^1.1.0",
+    "i40xx-link": "^1.1.0",
+    "i40xx-preprocess": "^1.1.0",
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.15",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-jest": "^27.6.0"
+  },
+  "keywords": [],
+  "author": "mark.ablov@gmail.com",
+  "license": "ISC",
+  "type": "module"
+}

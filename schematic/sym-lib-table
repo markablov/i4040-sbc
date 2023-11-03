@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "i4040-sbc")(type "KiCad")(uri "${KIPRJMOD}/i4040-sbc.kicad_sym")(options "")(descr ""))
+)

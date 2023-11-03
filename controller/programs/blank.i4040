@@ -1,0 +1,12 @@
+start:
+  JUN skipped
+  NOP
+  NOP
+skipped:
+  LDM 1
+  WMP
+  LDM 2
+  WMP
+  LDM 0xF
+  WMP
+  HLT

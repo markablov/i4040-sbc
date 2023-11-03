@@ -1,0 +1,19 @@
+__location(0x0:0x00)
+entrypoint:
+  LDM 0x1
+  JMS output
+  DB1
+  JMS foo
+  HLT
+
+output:
+  WMP
+  BBL 0
+
+__rom_bank(0x1)
+foo:
+  LDM 0x2
+  JMS output
+  DB0
+  NOP
+  BBL 0
